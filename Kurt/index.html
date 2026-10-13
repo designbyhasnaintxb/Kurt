@@ -3,15 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Coach Leon Thomas | Private Pickleball Coaching in New Jersey</title>
-<meta name="description" content="Private, one-on-one pickleball coaching in New Jersey with Coach Leon Thomas — nearly 10 years of coaching experience with children and adults. Beginner friendly.">
-<meta name="theme-color" content="#173F32">
+<title>Kurt Johnson | Minnesota Made Hockey — Youth Hockey Coaching &amp; Player Development</title>
+<meta name="description" content="Minnesota Made Hockey: youth hockey coaching with Kurt Johnson. Approximately 20 years of coaching young players, around ages 5–15, with a focus on player development. Ask about training.">
+<meta name="theme-color" content="#172737">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Coach Leon Thomas | Private Pickleball Coaching in New Jersey">
-<meta property="og:description" content="Learn pickleball. Build confidence. Enjoy the game. Private coaching with Coach Leon Thomas — nearly 10 years of coaching experience, now in New Jersey.">
-<meta property="og:image" content="assets/hero-1300.webp">
+<meta property="og:title" content="Kurt Johnson | Minnesota Made Hockey">
+<meta property="og:description" content="20 years building players from the ice up. Youth hockey coaching and player development with Kurt Johnson.">
+<meta property="og:image" content="assets/og-1200x630.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23173F32'/%3E%3Cg transform='rotate(-14 27 56)'%3E%3Crect x='22.5' y='38' width='9' height='17' rx='3.2' fill='%23E58148'/%3E%3Crect x='12' y='8' width='30' height='34' rx='13' fill='%23F7F5EF'/%3E%3C/g%3E%3Ccircle cx='48' cy='17' r='8.5' fill='%23D8E64C'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect x='1' y='1' width='46' height='46' rx='14' fill='%23172737'/%3E%3Cpath d='M9.5 29V15l3.5 7.5 3.5-7.5v14M20 29V15l3.5 7.5L27 15v14M30.5 15v14M38.5 15v14M30.5 22h8' fill='none' stroke='%23F3F5F2' stroke-width='3'/%3E%3Cpath d='M9.5 36h27' stroke='%236FA6C2' stroke-width='3'/%3E%3Ccircle cx='38.5' cy='36' r='3' fill='%23C94E42'/%3E%3C/svg%3E">
 
 <script>
   /* Motion is opt-out: removed for reduced-motion users, or if GSAP fails to load. */
@@ -24,8 +26,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,500&display=swap">
-<link rel="preload" as="image" type="image/avif" href="assets/hero-760.avif">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&family=Barlow+Condensed:wght@600;700;800&family=Figtree:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="styles.css">
 
 <script type="application/ld+json">
@@ -34,18 +35,27 @@
   "@graph": [
     {
       "@type": "Person",
-      "@id": "#leon",
-      "name": "Leon Thomas",
-      "jobTitle": "Pickleball Coach",
-      "description": "Private pickleball coach originally from Jamaica, with nearly 10 years of coaching experience working with children and adults. Now coaching in New Jersey.",
-      "knowsAbout": ["Pickleball", "Private pickleball coaching", "Beginner pickleball", "Pickleball fundamentals", "Pickleball technique"]
+      "@id": "#kurt",
+      "name": "Kurt Johnson",
+      "jobTitle": "Youth Hockey Coach",
+      "description": "Youth hockey coach with approximately 20 years of coaching experience. Kurt started coaching through his own children and now focuses on player development for young players, around ages 5–15.",
+      "knowsAbout": ["Hockey", "Youth hockey coaching", "Youth hockey player development"],
+      "worksFor": { "@id": "#mmh" }
+    },
+    {
+      "@type": "SportsOrganization",
+      "@id": "#mmh",
+      "name": "Minnesota Made Hockey",
+      "sport": "Ice hockey",
+      "email": "minnesota.mnmadehockey@gmail.com",
+      "founder": { "@id": "#kurt" }
     },
     {
       "@type": "Service",
-      "serviceType": "Private pickleball coaching",
-      "name": "Private Pickleball Coaching with Coach Leon Thomas",
-      "provider": { "@id": "#leon" },
-      "areaServed": { "@type": "State", "name": "New Jersey" }
+      "serviceType": "Youth hockey coaching and player development",
+      "name": "Youth Hockey Coaching with Kurt Johnson",
+      "provider": { "@id": "#mmh" },
+      "audience": { "@type": "PeopleAudience", "suggestedMinAge": 5, "suggestedMaxAge": 15 }
     }
   ]
 }
@@ -55,40 +65,38 @@
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
-<div class="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__label"></span></div>
-
 <!-- ═════════ HEADER ═════════ -->
 <header class="nav" id="nav">
   <div class="nav__ticker" aria-hidden="true">
     <div class="nav__ticker-track">
-      <span>Private pickleball coaching</span><i></i><span>Nearly 10 years coaching</span><i></i><span>Originally from Jamaica</span><i></i><span>Now in New Jersey</span><i></i><span>Children + adults</span><i></i><span>Beginner friendly</span><i></i><span>One-on-one lessons</span><i></i>
+      <span>Youth hockey coaching</span><i></i><span>~20 years coaching</span><i></i><span>Young players · ages 5–15</span><i></i><span>Player development</span><i></i><span>Started with his own kids</span><i></i><span>Parent-friendly</span><i></i><span>Questions welcome</span><i></i>
     </div>
   </div>
 
   <div class="nav__barwrap">
     <div class="nav__bar">
-      <a class="logo" href="#top" aria-label="Coach Leon Thomas, Pickleball Coaching — back to top">
-        <svg class="lm" viewBox="0 0 48 48" aria-hidden="true"><g transform="rotate(-12 19 44)"><g class="lm-paddle"><rect class="lm-handle" x="15.5" y="30" width="7" height="14" rx="2.6"/><path class="lm-grip" d="M15.5 35h7M15.5 39h7"/><rect class="lm-face" x="7" y="4" width="24" height="28" rx="10"/><path class="lm-line" d="M11 18h16"/></g></g><g class="lm-ball"><circle class="lm-ball__c" cx="38" cy="12" r="6.6"/><g class="lm-holes"><circle cx="35.6" cy="9.9" r="1.05"/><circle cx="39.9" cy="9.3" r="1.05"/><circle cx="37.8" cy="12.9" r="1.05"/><circle cx="41.1" cy="14.1" r="1.05"/><circle cx="34.9" cy="14.4" r="1.05"/></g></g></svg>
+      <a class="logo" href="#top" aria-label="Minnesota Made Hockey — back to top">
+        <svg class="lm" viewBox="0 0 48 48" aria-hidden="true"><rect class="lm-rink" x="1.5" y="1.5" width="45" height="45" rx="14"/><rect class="lm-boards" x="5" y="5" width="38" height="38" rx="10.5"/><path class="lm-mmh" d="M9.5 29V15l3.5 7.5 3.5-7.5v14M20 29V15l3.5 7.5L27 15v14M30.5 15v14M38.5 15v14M30.5 22h8"/><path class="lm-line" d="M9.5 35.5h29" pathLength="1"/><circle class="lm-puck" cx="38.5" cy="35.5" r="2.6"/></svg>
         <span class="logo__text">
-          <span class="logo__name"><span><em class="logo__coach">Coach</em> Leon</span></span>
-          <span class="logo__court" aria-hidden="true"><svg class="logo__line" viewBox="0 0 100 6" preserveAspectRatio="none" aria-hidden="true"><path d="M1 1v4M1 3h98M99 1v4M50 .5v5" pathLength="1"/></svg><i class="logo__dot"></i></span>
-          <span class="logo__tag">Pickleball Coaching</span>
+          <span class="logo__name"><span>Minnesota Made</span></span>
+          <span class="logo__court" aria-hidden="true"><svg class="logo__line" viewBox="0 0 100 6" preserveAspectRatio="none"><path d="M1 1v4M1 3h98M99 1v4" pathLength="1"/><path class="logo__red" d="M50 .5v5"/></svg></span>
+          <span class="logo__tag">Hockey</span>
         </span>
       </a>
 
       <nav class="nav__links" aria-label="Main">
         <span class="nav__pill" aria-hidden="true"></span>
-        <a href="#about">Leon</a>
-        <a href="#coaching">Coaching</a>
-        <a href="#players">Players</a>
-        <a href="#journey">Journey</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Book</a>
+        <a href="#about">Kurt</a>
+        <a href="#experience">20 years</a>
+        <a href="#development">Development</a>
+        <a href="#gallery">On the ice</a>
+        <a href="#why">Parents</a>
+        <a href="#contact">Ask</a>
       </nav>
 
       <div class="nav__right">
-        <a class="btn btn--dark btn--sm nav__cta" href="#contact" data-magnetic>
-          <span>Book a lesson</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        <a class="btn btn--red btn--sm nav__cta" href="#contact" aria-label="Ask about training" data-magnetic>
+          <span>Ask about training</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
         </a>
         <button class="nav__menu" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
           <span class="nav__menu-t" aria-hidden="true">Menu</span>
@@ -102,509 +110,326 @@
 
 <!-- Full-screen menu -->
 <div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menu">
-  <svg class="menu__court" viewBox="-4 -4 448 208" aria-hidden="true">
-    <rect x="0" y="0" width="440" height="200"/><line x1="220" y1="-4" x2="220" y2="204"/><line x1="150" y1="0" x2="150" y2="200"/><line x1="290" y1="0" x2="290" y2="200"/><line x1="0" y1="100" x2="150" y2="100"/><line x1="290" y1="100" x2="440" y2="100"/>
+  <svg class="menu__rink" viewBox="0 0 600 260" aria-hidden="true">
+    <rect x="6" y="6" width="588" height="248" rx="84"/><path d="M226 6v248M374 6v248M300 6v248"/><circle cx="300" cy="130" r="44"/><circle cx="97" cy="65" r="44"/><circle cx="97" cy="195" r="44"/><circle cx="503" cy="65" r="44"/><circle cx="503" cy="195" r="44"/>
   </svg>
   <div class="wrap menu__inner">
     <nav class="menu__nav" aria-label="Menu">
       <p class="menu__k">Navigate</p>
       <ol class="menu__links">
         <li><a href="#top"><span class="menu__n">01</span><span class="menu__t">Home</span></a></li>
-        <li><a href="#experience"><span class="menu__n">02</span><span class="menu__t">At a glance</span></a></li>
-        <li><a href="#about"><span class="menu__n">03</span><span class="menu__t">Meet Leon</span></a></li>
-        <li><a href="#coaching"><span class="menu__n">04</span><span class="menu__t">Private coaching</span></a></li>
-        <li><a href="#players"><span class="menu__n">05</span><span class="menu__t">Who Leon coaches</span></a></li>
-        <li><a href="#journey"><span class="menu__n">06</span><span class="menu__t">Jamaica → New Jersey</span></a></li>
-        <li><a href="#why"><span class="menu__n">07</span><span class="menu__t">Why train with Leon</span></a></li>
-        <li><a href="#gallery"><span class="menu__n">08</span><span class="menu__t">Gallery</span></a></li>
-        <li><a href="#contact"><span class="menu__n">09</span><span class="menu__t">Book a lesson</span></a></li>
+        <li><a href="#about"><span class="menu__n">02</span><span class="menu__t">Meet Coach Kurt</span></a></li>
+        <li><a href="#experience"><span class="menu__n">03</span><span class="menu__t">Nearly 20 years</span></a></li>
+        <li><a href="#development"><span class="menu__n">04</span><span class="menu__t">Player development</span></a></li>
+        <li><a href="#gallery"><span class="menu__n">05</span><span class="menu__t">On the ice</span></a></li>
+        <li><a href="#why"><span class="menu__n">06</span><span class="menu__t">Why parents reach out</span></a></li>
+        <li><a href="#contact"><span class="menu__n">07</span><span class="menu__t">Ask about training</span></a></li>
       </ol>
     </nav>
 
-    <aside class="menu__card" aria-label="About Coach Leon Thomas">
-      <figure class="menu__photo media" data-ph="Pickleball paddle and ball">
-        <img src="assets/menu-paddle-900.webp" alt="" loading="lazy" decoding="async">
+    <aside class="menu__card" aria-label="About Coach Kurt Johnson">
+      <figure class="menu__photo media">
+        <img src="assets/art/night.svg" alt="" loading="lazy" decoding="async">
+        <figcaption class="menu__mark" aria-hidden="true">MMH</figcaption>
       </figure>
-      <p class="menu__name">Coach Leon Thomas</p>
-      <p class="menu__role">Private pickleball coaching · New Jersey</p>
+      <p class="menu__name">Coach Kurt Johnson</p>
+      <p class="menu__role">Minnesota Made Hockey · Youth player development</p>
       <ul class="menu__facts">
-        <li><b>~10</b><span>Years coaching</span></li>
-        <li><b>1:1</b><span>Private lessons</span></li>
-        <li><b>JA→NJ</b><span>The journey</span></li>
+        <li><b>~20</b><span>Years coaching</span></li>
+        <li><b>5–15</b><span>Player ages (approx.)</span></li>
       </ul>
-      <a class="btn btn--ball btn--block" href="#contact">
-        <span>Book a private lesson</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+      <a class="btn btn--red btn--block" href="#contact">
+        <span>Ask about training</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
       </a>
-      <p class="menu__foot"><span>Experienced</span><i></i><span>Approachable</span><i></i><span>Personal</span></p>
+      <p class="menu__foot"><span>Experienced</span><i></i><span>Approachable</span><i></i><span>Development-focused</span></p>
     </aside>
   </div>
 </div>
 
 <main id="main">
 
-<!-- ═════════ 01 — HERO (new: live rally) ═════════ -->
+<!-- ═════════ 01 — HERO · "Who is this coach?" ═════════ -->
 <section class="hero" id="top" aria-labelledby="hero-title">
-  <div class="hero__glow" aria-hidden="true"></div>
+  <div class="hero__ice" aria-hidden="true"></div>
 
-  <div class="wrap hero__top">
-    <p class="hero__name">
-      <span class="hero__name-tag"><span class="mball" aria-hidden="true"></span><span class="hero__name-t">Coach Leon Thomas</span></span>
-      <span class="hero__loc"><i aria-hidden="true"></i>New Jersey</span>
-    </p>
-    <h1 class="hero__title" id="hero-title">
-      <span class="hl is-lit"><span class="hl__in">Learn pickleball.</span></span>
-      <span class="hl"><span class="hl__in">Build <span class="hl__hi">confidence.</span></span></span>
-      <span class="hl"><span class="hl__in"><em>Enjoy the game.</em></span></span>
-    </h1>
-    <div class="hero__row">
-      <p class="hero__lede">Private pickleball coaching with Coach Leon Thomas, bringing nearly 10 years of coaching experience to players of different ages and skill levels.</p>
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <p class="hero__name">
+        <span class="hero__name-tag"><span class="puck" aria-hidden="true"></span><span class="hero__name-t">Coach Kurt Johnson</span></span>
+        <span class="hero__brand"><i aria-hidden="true"></i>Minnesota Made Hockey</span>
+      </p>
+      <h1 class="hero__title" id="hero-title">
+        <span class="hl"><span class="hl__in"><span class="hl__num">20 years</span></span></span>
+        <span class="hl"><span class="hl__in">building players</span></span>
+        <span class="hl"><span class="hl__in"><em>from the ice up.</em></span></span>
+      </h1>
+      <p class="hero__lede">Hockey coaching with Kurt Johnson for young players and families looking for experienced, development-focused instruction.</p>
       <div class="hero__ctas">
-        <a class="btn btn--ball" href="#contact" data-magnetic>
-          <span>Book a private lesson</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        <a class="btn btn--red" href="#contact" data-magnetic>
+          <span>Ask about training</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
         </a>
-        <a class="btn btn--ghost" href="#about">
-          <span>Meet Coach Leon</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        <a class="btn btn--line" href="#about">
+          <span>Meet Coach Kurt</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
         </a>
       </div>
     </div>
+
+    <!-- Hero visual: a rink that draws in and a puck that skates one path, once.
+         When Kurt's coaching photos arrive, a photo can sit behind or beside this card. -->
+    <figure class="hrink" aria-hidden="true">
+      <div class="hrink__card">
+        <svg class="hrink__svg" viewBox="0 0 600 260">
+          <defs><clipPath id="rinkClip"><rect x="6" y="6" width="588" height="248" rx="84"/></clipPath></defs>
+          <rect class="hrink__ice" x="6" y="6" width="588" height="248" rx="84"/>
+          <g clip-path="url(#rinkClip)">
+            <path class="hrink__crease" d="M38 112.4a17.6 17.6 0 0 1 0 35.2z"/>
+            <path class="hrink__crease" d="M562 112.4a17.6 17.6 0 0 0 0 35.2z"/>
+            <g class="hrink__lines">
+              <path class="hrink__red" pathLength="1" d="M38 6v248M562 6v248"/>
+              <path class="hrink__blue" pathLength="1" d="M226.5 6v248M373.5 6v248"/>
+              <path class="hrink__red hrink__center" pathLength="1" d="M300 6v248"/>
+              <circle class="hrink__blue" pathLength="1" cx="300" cy="130" r="44"/>
+              <circle class="hrink__red" pathLength="1" cx="97" cy="65" r="44"/>
+              <circle class="hrink__red" pathLength="1" cx="97" cy="195" r="44"/>
+              <circle class="hrink__red" pathLength="1" cx="503" cy="65" r="44"/>
+              <circle class="hrink__red" pathLength="1" cx="503" cy="195" r="44"/>
+            </g>
+            <g class="hrink__dots"><circle cx="97" cy="65" r="4"/><circle cx="97" cy="195" r="4"/><circle cx="503" cy="65" r="4"/><circle cx="503" cy="195" r="4"/><circle cx="241" cy="65" r="4"/><circle cx="241" cy="195" r="4"/><circle cx="359" cy="65" r="4"/><circle cx="359" cy="195" r="4"/><circle class="hrink__cdot" cx="300" cy="130" r="5"/></g>
+          </g>
+          <rect class="hrink__boards" pathLength="1" x="6" y="6" width="588" height="248" rx="84"/>
+          <path class="hrink__trail" d="M64 222C120 246 160 222 190 188S246 112 300 130"/>
+          <circle class="hrink__puck" r="8" cx="300" cy="130"/>
+        </svg>
+        <p class="hrink__zones"><span>Start young</span><span>Build strong</span></p>
+      </div>
+      <figcaption class="hrink__cap"><b>Built on the ice.</b> Built over time.</figcaption>
+    </figure>
   </div>
 
-  <div class="wrap hero__stage">
-    <div class="hcard hcard--a"><div class="hcard__in">
-      <figure class="hcard__fig media" data-cursor="Learn" data-ph="Private pickleball lesson">
-        <picture>
-          <source type="image/avif" srcset="assets/hero-760.avif" >
-          <img src="assets/hero-760.webp" alt="A player in a cap demonstrating a shot to a partner across a pickleball net" fetchpriority="high" decoding="async">
-        </picture>
-        <figcaption class="ph-note">Illustrative photo</figcaption>
-      </figure>
-      <p class="hcard__tag">1:1 · Private lessons</p>
-    </div></div>
-    <div class="hcard hcard--b"><div class="hcard__in">
-      <figure class="hcard__fig media" data-ph="Pickleball beginners">
-        <img src="assets/p-beginners-760.webp" alt="A player serving on a blue outdoor court" loading="lazy" decoding="async">
-        <figcaption class="ph-note">Illustrative photo</figcaption>
-      </figure>
-      <p class="hcard__tag hcard__tag--dark" aria-label="From Jamaica to New Jersey"><span aria-hidden="true">Jamaica</span><span class="hroute" aria-hidden="true"><i></i></span><span aria-hidden="true">NJ</span></p>
-    </div></div>
-
-    <div class="rally" aria-hidden="true">
-      <div class="rally__plane">
-        <svg class="rally__court" viewBox="0 0 960 440">
-          <rect class="rally__apron" x="0" y="0" width="960" height="440" rx="22"/>
-          <rect class="rally__surface" x="40" y="20" width="880" height="400"/>
-          <rect class="rally__kitchen" data-k="l" x="340" y="20" width="140" height="400"/>
-          <rect class="rally__kitchen" data-k="r" x="480" y="20" width="140" height="400"/>
-          <g class="rally__lines">
-            <path pathLength="1" d="M40 20H920V420H40Z"/>
-            <path pathLength="1" d="M340 20V420M620 20V420"/>
-            <path pathLength="1" d="M40 220H340M620 220H920"/>
-            <path class="rally__net" pathLength="1" d="M480 4V436"/>
-          </g>
-        </svg>
-        <span class="rally__ring"><i></i></span>
-        <span class="rally__shadow" style="left:91.667%;top:75%"><i></i></span>
-        <span class="rally__p rally__p--leon" style="left:11.458%;top:25%"><i></i><b>Coach Leon</b></span>
-        <span class="rally__p rally__p--you" style="left:91.667%;top:75%"><i></i><b>You</b></span>
-        <span class="rally__ball" style="left:91.667%;top:75%"><span class="mball"></span></span>
-        <span class="rally__call"><b>Serve</b></span>
-      </div>
-    </div>
-
-    <ul class="hscore" aria-label="Coach Leon at a glance">
-      <li class="is-lit"><b><span class="hscore__num" data-count="10">~10</span> years</b><span>Coaching experience</span></li>
-      <li><b>Private 1-on-1</b><span>Personalized lessons</span></li>
-      <li><b>Beginner friendly</b><span>New players welcome</span></li>
-      <li><b>New Jersey</b><span>Now coaching here</span></li>
+  <div class="wrap">
+    <ul class="hscore" aria-label="Coach Kurt at a glance">
+      <li><b><span class="hscore__num" data-count="20">~20</span> years</b><span>Coaching experience (approx.)</span></li>
+      <li><b>Youth development</b><span>Focused on player development</span></li>
+      <li><b>Ages 5–15</b><span>Young players, approximately</span></li>
+      <li><b>Minnesota Made</b><span>Hockey</span></li>
     </ul>
   </div>
 </section>
 
-<!-- ═════════ 02 — EXPERIENCE SNAPSHOT ═════════ -->
-<section class="snap" id="experience" aria-labelledby="snap-title">
-  <div class="seam" aria-hidden="true"><span class="seam__line"></span><span class="seam__tag">02 · At a glance</span></div>
-  <div class="wrap">
-    <div class="snap__head">
-      <p class="eyebrow">Quick experience</p>
-      <h2 class="h2 split" id="snap-title">Experienced. Approachable. <em>Personal.</em></h2>
-    </div>
-
-    <div class="snap__grid">
-      <ol class="snap__list">
-        <li class="snap__row">
-          <span class="snap__k">01</span>
-          <p class="snap__n" data-n="~10 yrs">~10 yrs</p>
-          <p class="snap__t"><b>Coaching experience</b><span>Nearly ten years of pickleball coaching experience.</span></p>
-        </li>
-        <li class="snap__row">
-          <span class="snap__k">02</span>
-          <p class="snap__n snap__n--sm" data-n="Children + adults">Children + adults</p>
-          <p class="snap__t"><b>Coaching background</b><span>Experience coaching children and adults of different ages and skill levels.</span></p>
-        </li>
-        <li class="snap__row">
-          <span class="snap__k">03</span>
-          <p class="snap__n snap__n--word" data-n="Private">Private</p>
-          <p class="snap__t"><b>1-on-1 coaching</b><span>Personalized, one-on-one lessons — the focus stays on your game.</span></p>
-        </li>
-        <li class="snap__row snap__row--accent">
-          <span class="snap__k">04</span>
-          <p class="snap__n snap__n--sm" data-n="Jamaica → New Jersey">Jamaica → New Jersey</p>
-          <p class="snap__t"><b>The journey</b><span>Coaching experience built in Jamaica, now in New Jersey.</span></p>
-        </li>
-      </ol>
-
-      <figure class="snap__media media" data-ph="Pickleball court">
-        <img src="assets/snap-court-1100.webp" srcset="assets/snap-court-700.webp 700w, assets/snap-court-1100.webp 1100w" sizes="(max-width: 1023px) 90vw, 30vw" alt="A pickleball paddle and yellow ball resting on a green and blue court" loading="lazy" decoding="async">
-        <figcaption class="snap__cap"><span>Coaching</span><b>~10 years</b></figcaption>
-      </figure>
-    </div>
-  </div>
-</section>
-
-<!-- ═════════ 03 — MEET LEON ═════════ -->
+<!-- ═════════ 02 — MEET KURT · "Can I trust him?" ═════════ -->
 <section class="about" id="about" aria-labelledby="about-title">
+  <div class="seam" aria-hidden="true"><span class="seam__line"><i class="puck"></i></span><span class="seam__tag">02 · Meet Coach Kurt</span></div>
   <div class="wrap about__grid">
     <div class="about__media">
-      <figure class="media about__photo reveal-img" data-ph="Coach Leon on court">
-        <img src="assets/about-paddle-1300.webp" srcset="assets/about-paddle-800.webp 800w, assets/about-paddle-1300.webp 1300w" sizes="(max-width: 1023px) 90vw, 36vw" alt="A hand resting a blue pickleball paddle and yellow ball on top of the net" loading="lazy" decoding="async">
+      <!-- Photo slot: replace with a photo of Kurt coaching (see assets/PHOTOS.md) -->
+      <figure class="media about__photo reveal-img">
+        <img src="assets/art/night.svg" alt="" loading="lazy" decoding="async">
+        <figcaption class="ph-note">Photo of Kurt coming soon</figcaption>
       </figure>
+      <p class="about__badge"><b>~20</b><span>years coaching<br>young players</span></p>
     </div>
 
     <div class="about__body">
-      <p class="eyebrow">Meet Coach Leon</p>
-      <h2 class="h2 split" id="about-title">Meet <em>Coach Leon Thomas.</em></h2>
-      <p class="about__intro">Leon is a pickleball coach originally from Jamaica, with nearly ten years of experience coaching children and adults of different ages and skill levels.</p>
-      <p class="about__more fade">Most of that experience was developed in Jamaica. Now in New Jersey, Leon is building his coaching presence here — offering private, one-on-one lessons for players who want personal attention and a clear place to start.</p>
-      <p class="about__warm fade">Approachable, beginner friendly, and passionate about teaching the game.</p>
+      <p class="eyebrow">Meet Coach Kurt</p>
+      <h2 class="h2 split" id="about-title">From hockey dad <em>to two decades of coaching.</em></h2>
+      <p class="about__intro">Hockey was part of Kurt's life from an early age. Years later, coaching his own children brought him back into the game from a new perspective.</p>
+      <p class="about__more fade">What started as helping his kids developed into nearly two decades of coaching young players. Today, his focus is helping developing athletes build skills, confidence and a stronger foundation on the ice.</p>
+      <p class="about__warm fade">A coach who knows the game — and knows the view from the parent's side of the glass.</p>
 
-      <ul class="roles fade">
-        <li><span>Coaching</span><span>Nearly 10 years of experience</span></li>
-        <li><span>Background</span><span>Originally from Jamaica</span></li>
-        <li><span>Now</span><span>Coaching in New Jersey</span></li>
-        <li><span>Coaches</span><span>Children and adults</span></li>
-        <li><span>Lessons</span><span>Private, one-on-one</span></li>
-      </ul>
+      <ol class="kpath fade" aria-label="Kurt's coaching story">
+        <li><span>Growing up</span><span>Played hockey as a kid</span></li>
+        <li><span>His own kids</span><span>Coaching them brought him back to the game</span></li>
+        <li><span>Coaching</span><span>What began with his kids kept growing</span></li>
+        <li><span>~20 years</span><span>Nearly two decades coaching young players</span></li>
+        <li><span>Today</span><span>Youth player development, ages ~5–15</span></li>
+      </ol>
 
-      <a class="textlink about__go fade" href="#contact">Talk to Leon about lessons</a>
+      <a class="textlink about__go fade" href="#contact">Ask Kurt about training</a>
     </div>
   </div>
 </section>
 
-<!-- ═════════ 04 — PRIVATE COACHING (sticky photo, scroll-driven focus list) ═════════ -->
-<section class="focus" id="coaching" aria-labelledby="focus-title">
-  <div class="seam" aria-hidden="true"><span class="seam__line"></span><span class="seam__tag">04 · Private coaching</span></div>
-  <div class="wrap focus__grid">
-    <div class="focus__intro">
-      <p class="eyebrow">Private coaching</p>
-      <h2 class="h2 split" id="focus-title">One-on-one coaching, <em>built around you.</em></h2>
-      <p class="fade">Private pickleball lessons with Coach Leon: one-on-one attention and personalized feedback, focused on where your game is today.</p>
-      <p class="focus__strong fade">Lessons can focus on fundamentals, technique, confidence, consistency and game understanding.</p>
-      <a class="btn btn--dark btn--fill focus__cta fade" href="#contact" data-improve="Fundamentals" data-magnetic>
-        <span>Book a private lesson</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
-      </a>
-    </div>
-
-    <div class="focus__stage">
-      <figure class="media focus__photo" id="focusPhoto" data-cursor="Learn">
-        <img class="is-on" src="assets/f-fundamentals-1200.webp" srcset="assets/f-fundamentals-760.webp 760w, assets/f-fundamentals-1200.webp 1200w" sizes="(max-width: 1023px) 90vw, 40vw" alt="Close-up of a player holding a paddle and ball near the net" loading="lazy" decoding="async">
-        <img src="assets/f-technique-1200.webp" srcset="assets/f-technique-760.webp 760w, assets/f-technique-1200.webp 1200w" sizes="(max-width: 1023px) 90vw, 40vw" alt="A player stepping into a forehand on an outdoor court" loading="lazy" decoding="async">
-        <img src="assets/f-confidence-1200.webp" srcset="assets/f-confidence-760.webp 760w, assets/f-confidence-1200.webp 1200w" sizes="(max-width: 1023px) 90vw, 40vw" alt="A smiling player reaching for the ball on a sunny court" loading="lazy" decoding="async">
-        <img src="assets/f-consistency-1200.webp" srcset="assets/f-consistency-760.webp 760w, assets/f-consistency-1200.webp 1200w" sizes="(max-width: 1023px) 90vw, 40vw" alt="Two players' feet and paddles at the net with a ball in play" loading="lazy" decoding="async">
-        <img src="assets/f-understanding-1200.webp" srcset="assets/f-understanding-760.webp 760w, assets/f-understanding-1200.webp 1200w" sizes="(max-width: 1023px) 90vw, 40vw" alt="Top-down view of blue and green pickleball courts with nets" loading="lazy" decoding="async">
-        <figcaption class="focus__label" aria-hidden="true"><span class="focus__label-n">01</span><span class="focus__label-t">Fundamentals</span></figcaption>
-      </figure>
-      <p class="focus__chip"><span class="dot" aria-hidden="true"></span>Private 1-on-1</p>
-    </div>
-
-    <ol class="focus__list">
-      <li><button type="button" class="focus__item is-active" data-i="0" data-improve="Fundamentals" aria-pressed="true" aria-controls="focusPhoto">
-        <span class="focus__n">01</span><span class="focus__t">Fundamentals</span>
-        <span class="focus__d">Grip, ready position, footwork and the basic shots — a solid base to build on.</span>
-      </button></li>
-      <li><button type="button" class="focus__item" data-i="1" data-improve="Technique" aria-pressed="false" aria-controls="focusPhoto">
-        <span class="focus__n">02</span><span class="focus__t">Technique</span>
-        <span class="focus__d">Cleaner, more reliable strokes, with personalized feedback as you play.</span>
-      </button></li>
-      <li><button type="button" class="focus__item" data-i="2" data-improve="Confidence" aria-pressed="false" aria-controls="focusPhoto">
-        <span class="focus__n">03</span><span class="focus__t">Confidence</span>
-        <span class="focus__d">Feel comfortable on court and decisive when the ball comes your way.</span>
-      </button></li>
-      <li><button type="button" class="focus__item" data-i="3" data-improve="Consistency" aria-pressed="false" aria-controls="focusPhoto">
-        <span class="focus__n">04</span><span class="focus__t">Consistency</span>
-        <span class="focus__d">Keep more balls in play and make your good shots repeatable.</span>
-      </button></li>
-      <li><button type="button" class="focus__item" data-i="4" data-improve="Game understanding" aria-pressed="false" aria-controls="focusPhoto">
-        <span class="focus__n">05</span><span class="focus__t">Game understanding</span>
-        <span class="focus__d">Where to stand, which shot to choose, and how points are won.</span>
-      </button></li>
-    </ol>
-  </div>
-</section>
-
-<!-- ═════════ 05 — WHO LEON COACHES (new: interactive player selector) ═════════ -->
-<section class="players" id="players" aria-labelledby="players-title">
-  <div class="seam" aria-hidden="true"><span class="seam__line"></span><span class="seam__tag">05 · Who Leon coaches</span></div>
-  <div class="wrap">
-    <div class="players__head">
-      <div>
-        <p class="eyebrow">Who Leon coaches</p>
-        <h2 class="h2 split" id="players-title">Coaching for <em>where you are now.</em></h2>
-      </div>
-      <p class="players__note fade">Private lessons for players of different ages and skill levels. Choose where you're starting from.</p>
-    </div>
-
-    <div class="pl" id="pl">
-      <div class="pl__tabs" role="tablist" aria-label="Player type">
-        <span class="pl__ind" aria-hidden="true"></span>
-        <button type="button" class="pl__tab" role="tab" id="pl-t0" aria-controls="pl-p0" aria-selected="true"><span class="pl__tab-n" aria-hidden="true">01</span><span class="pl__tab-t"><b>Beginners</b><small>New to the game</small></span></button>
-        <button type="button" class="pl__tab" role="tab" id="pl-t1" aria-controls="pl-p1" aria-selected="false" tabindex="-1"><span class="pl__tab-n" aria-hidden="true">02</span><span class="pl__tab-t"><b>Adults</b><small>Personal instruction</small></span></button>
-        <button type="button" class="pl__tab" role="tab" id="pl-t2" aria-controls="pl-p2" aria-selected="false" tabindex="-1"><span class="pl__tab-n" aria-hidden="true">03</span><span class="pl__tab-t"><b>Young players</b><small>Supportive &amp; engaging</small></span></button>
-        <button type="button" class="pl__tab" role="tab" id="pl-t3" aria-controls="pl-p3" aria-selected="false" tabindex="-1"><span class="pl__tab-n" aria-hidden="true">04</span><span class="pl__tab-t"><b>Developing players</b><small>The next step</small></span></button>
-      </div>
-
-      <div class="pl__stage" data-level="0">
-        <div class="pl__tone" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
-
-        <div class="pl__panels">
-          <div class="pl__panel is-active" role="tabpanel" id="pl-p0" aria-labelledby="pl-t0" data-mx="9%" data-my="50%" data-focus="Fundamentals · Confidence">
-            <p class="pl__count" style="--d:0">01 / 04</p>
-            <h3 class="pl__name" style="--d:1">Beginners</h3>
-            <p class="pl__lead" style="--d:2">Learn the fundamentals and build confidence.</p>
-            <ul class="pl__tags" style="--d:3"><li>Fundamentals</li><li>Confidence</li><li>Beginner friendly</li></ul>
-            <div class="pl__ctas" style="--d:4">
-              <a class="btn btn--ball" href="#contact" data-level="beginners"><span>Book for this level</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span></a>
-              <a class="textlink textlink--light" href="#contact">Ask about coaching</a>
-            </div>
-          </div>
-          <div class="pl__panel" role="tabpanel" id="pl-p1" aria-labelledby="pl-t1" data-mx="24%" data-my="26%" data-focus="Personalized feedback">
-            <p class="pl__count" style="--d:0">02 / 04</p>
-            <h3 class="pl__name" style="--d:1">Adults</h3>
-            <p class="pl__lead" style="--d:2">Develop skills through personalized instruction.</p>
-            <ul class="pl__tags" style="--d:3"><li>One-on-one attention</li><li>Personalized feedback</li><li>Technique</li></ul>
-            <div class="pl__ctas" style="--d:4">
-              <a class="btn btn--ball" href="#contact" data-level="adults"><span>Book for this level</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span></a>
-              <a class="textlink textlink--light" href="#contact">Ask about coaching</a>
-            </div>
-          </div>
-          <div class="pl__panel" role="tabpanel" id="pl-p2" aria-labelledby="pl-t2" data-mx="17%" data-my="74%" data-focus="Supportive &amp; engaging">
-            <p class="pl__count" style="--d:0">03 / 04</p>
-            <h3 class="pl__name" style="--d:1">Young players</h3>
-            <p class="pl__lead" style="--d:2">Learn in a supportive and engaging environment.</p>
-            <ul class="pl__tags" style="--d:3"><li>Fundamentals</li><li>Confidence</li><li>Supportive coaching</li></ul>
-            <div class="pl__ctas" style="--d:4">
-              <a class="btn btn--ball" href="#contact" data-level="young"><span>Book for this level</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span></a>
-              <a class="textlink textlink--light" href="#contact">Ask about coaching</a>
-            </div>
-          </div>
-          <div class="pl__panel" role="tabpanel" id="pl-p3" aria-labelledby="pl-t3" data-mx="38%" data-my="42%" data-focus="Technique · Consistency">
-            <p class="pl__count" style="--d:0">04 / 04</p>
-            <h3 class="pl__name" style="--d:1">Developing players</h3>
-            <p class="pl__lead" style="--d:2">Improve technique, consistency, and game understanding.</p>
-            <ul class="pl__tags" style="--d:3"><li>Technique</li><li>Consistency</li><li>Game understanding</li></ul>
-            <div class="pl__ctas" style="--d:4">
-              <a class="btn btn--ball" href="#contact" data-level="developing"><span>Book for this level</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span></a>
-              <a class="textlink textlink--light" href="#contact">Ask about coaching</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="pl__media media" data-ph="Pickleball players">
-          <img class="is-on" src="assets/p-beginners-1300.webp" srcset="assets/p-beginners-760.webp 760w, assets/p-beginners-1300.webp 1300w" sizes="(max-width: 1023px) 92vw, 46vw" alt="A player bending to serve a ball on a blue outdoor court" loading="lazy" decoding="async">
-          <img src="assets/p-adults-1300.webp" srcset="assets/p-adults-760.webp 760w, assets/p-adults-1300.webp 1300w" sizes="(max-width: 1023px) 92vw, 46vw" alt="Two smiling adults holding pickleball paddles" loading="lazy" decoding="async">
-          <img src="assets/p-young-1300.webp" srcset="assets/p-young-760.webp 760w, assets/p-young-1300.webp 1300w" sizes="(max-width: 1023px) 92vw, 46vw" alt="A teenage player lunging for a low shot on an indoor court" loading="lazy" decoding="async">
-          <img src="assets/p-developing-1300.webp" srcset="assets/p-developing-760.webp 760w, assets/p-developing-1300.webp 1300w" sizes="(max-width: 1023px) 92vw, 46vw" alt="A player in the ready position preparing a forehand at the net" loading="lazy" decoding="async">
-          <p class="ph-note">Illustrative photo</p>
-          <div class="pl__court" aria-hidden="true">
-            <div class="pl__courtbox">
-              <svg viewBox="0 0 220 100" preserveAspectRatio="none">
-                <rect x="0" y="0" width="220" height="100"/>
-                <rect class="k" x="75" y="0" width="70" height="100"/>
-                <path d="M0 0H220V100H0ZM110 -6V106M75 0V100M145 0V100M0 50H75M145 50H220"/>
-              </svg>
-              <span class="mball pl__marker"></span>
-            </div>
-            <span class="pl__court-t"><small>Lesson focus</small><b>Fundamentals · Confidence</b></span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ═════════ 06 — JAMAICA → NEW JERSEY (new: scroll-driven story) ═════════ -->
-<section class="story" id="journey" aria-labelledby="story-title">
-  <div class="seam" aria-hidden="true"><span class="seam__line"></span><span class="seam__tag">06 · The journey</span></div>
+<!-- ═════════ 03 — 20-YEAR EXPERIENCE · "How long has he coached?" ═════════ -->
+<section class="story" id="experience" aria-labelledby="story-title">
+  <div class="seam" aria-hidden="true"><span class="seam__line"><i class="puck"></i></span><span class="seam__tag">03 · Nearly 20 years</span></div>
   <div class="wrap">
     <div class="story__head">
       <div>
-        <p class="eyebrow">Coaching journey</p>
-        <h2 class="h2 split" id="story-title">A coaching journey <em>from Jamaica to New Jersey.</em></h2>
+        <p class="eyebrow">Approximately 20 years of coaching</p>
+        <h2 class="h2 split" id="story-title">Built on the ice. <em>Built over time.</em></h2>
       </div>
-      <p class="story__note fade">Nearly ten years of coaching, most of it in Jamaica — and now a new chapter in New Jersey.</p>
+      <p class="story__note fade">Young players improve through repetition, patience, fundamentals and time on the ice. Nearly two decades of coaching follows the same path — one shift at a time.</p>
     </div>
 
     <div class="story__grid">
       <div class="story__stage">
-        <div class="story__panel" data-tone="ja">
+        <div class="story__panel" data-tone="a">
           <div class="story__tone" aria-hidden="true"><i></i><i></i><i></i></div>
-          <figure class="story__imgs media" aria-hidden="true" data-ph="Pickleball court">
-            <img class="is-on" src="assets/j-1-1200.webp" srcset="assets/j-1-700.webp 700w, assets/j-1-1200.webp 1200w" sizes="(max-width: 1023px) 1px, 46vw" alt="" loading="lazy" decoding="async">
-            <img src="assets/j-2-1200.webp" srcset="assets/j-2-700.webp 700w, assets/j-2-1200.webp 1200w" sizes="(max-width: 1023px) 1px, 46vw" alt="" loading="lazy" decoding="async">
-            <img src="assets/j-3-1200.webp" srcset="assets/j-3-700.webp 700w, assets/j-3-1200.webp 1200w" sizes="(max-width: 1023px) 1px, 46vw" alt="" loading="lazy" decoding="async">
-            <span class="story__chapter"><span>Chapter · Jamaica</span></span>
-            <figcaption class="ph-note">Illustrative photo</figcaption>
+          <figure class="story__art media" aria-hidden="true">
+            <img src="assets/art/center.svg" alt="" loading="lazy" decoding="async">
+            <span class="story__word">Kids</span>
+            <span class="story__chapter"><span>Stage · Kids</span></span>
           </figure>
           <div class="story__map" aria-hidden="true">
             <svg class="story__route" viewBox="0 0 600 150">
-              <defs><radialGradient id="rballG" cx="35%" cy="30%" r="75%"><stop offset="0" stop-color="#FCFBF7"/><stop offset=".28" stop-color="#E6EF8A"/><stop offset=".62" stop-color="#D8E64C"/><stop offset="1" stop-color="#B5C534"/></radialGradient></defs>
               <path class="route__base" d="M24 124C120 124 150 76 250 82S410 30 576 26"/>
               <path class="route__draw" d="M24 124C120 124 150 76 250 82S410 30 576 26"/>
               <g class="route__nodes"></g>
-              <g class="route__ball" transform="translate(576 26)"><circle r="12" fill="url(#rballG)"/></g>
+              <g class="route__puck" transform="translate(576 26)"><ellipse rx="12" ry="12"/></g>
             </svg>
-            <span class="story__pin story__pin--ja is-on">Jamaica</span>
-            <span class="story__pin story__pin--nj">New Jersey</span>
+            <span class="story__pin story__pin--a is-on">Kids</span>
+            <span class="story__pin story__pin--b">Next level</span>
           </div>
           <div class="story__meta">
-            <p class="story__count is-full"><b><span class="story__tilde">~</span><span class="story__num">10</span><small>yrs</small></b><span>Coaching experience</span></p>
-            <p class="story__now" aria-live="polite"><span><span class="story__idx">01</span> / 07</span><b class="story__ttl">Jamaica</b></p>
+            <p class="story__count is-full"><b><span class="story__tilde">~</span><span class="story__num">20</span><small>yrs</small></b><span>Coaching young players</span></p>
+            <p class="story__now" aria-live="polite"><span><span class="story__idx">01</span> / 05</span><b class="story__ttl">Kids</b></p>
           </div>
         </div>
       </div>
 
       <ol class="story__list">
-        <li class="sstop is-on is-active is-open" data-tone="ja" data-img="0">
-          <button type="button" class="sstop__head" aria-expanded="true" aria-controls="ss-1"><span class="sstop__n">01 · Where it starts</span><span class="sstop__t">Jamaica</span><i class="sstop__ic" aria-hidden="true"></i></button>
-          <div class="sstop__body" id="ss-1"><div class="sstop__inner"><p>Leon is originally from Jamaica — where his pickleball story, and most of his coaching experience, began.</p></div></div>
+        <li class="sstop is-on is-active is-open" data-tone="a" data-word="Kids">
+          <button type="button" class="sstop__head" aria-expanded="true" aria-controls="ss-1"><span class="sstop__n">01 · Where it starts</span><span class="sstop__t">Kids</span><i class="sstop__ic" aria-hidden="true"></i></button>
+          <div class="sstop__body" id="ss-1"><div class="sstop__inner"><p>Every player starts somewhere — getting comfortable on skates, finding their feet on the ice and enjoying the game.</p></div></div>
         </li>
-        <li class="sstop" data-tone="ja" data-img="0">
-          <button type="button" class="sstop__head" aria-expanded="false" aria-controls="ss-2"><span class="sstop__n">02 · The game</span><span class="sstop__t">Introduced to pickleball</span><i class="sstop__ic" aria-hidden="true"></i></button>
-          <div class="sstop__body" id="ss-2"><div class="sstop__inner"><p>Leon was introduced to pickleball — the start of a long connection with the game.</p></div></div>
+        <li class="sstop" data-tone="a" data-word="Basics">
+          <button type="button" class="sstop__head" aria-expanded="false" aria-controls="ss-2"><span class="sstop__n">02 · The base</span><span class="sstop__t">Fundamentals</span><i class="sstop__ic" aria-hidden="true"></i></button>
+          <div class="sstop__body" id="ss-2"><div class="sstop__inner"><p>The basics of the game, repeated until they start to feel natural. Strong habits are built early.</p></div></div>
         </li>
-        <li class="sstop" data-tone="coach" data-img="1">
-          <button type="button" class="sstop__head" aria-expanded="false" aria-controls="ss-3"><span class="sstop__n">03 · Teaching</span><span class="sstop__t">Started coaching</span><i class="sstop__ic" aria-hidden="true"></i></button>
-          <div class="sstop__body" id="ss-3"><div class="sstop__inner"><p>He began coaching, helping other players learn and enjoy the game.</p></div></div>
+        <li class="sstop" data-tone="b" data-word="Growth">
+          <button type="button" class="sstop__head" aria-expanded="false" aria-controls="ss-3"><span class="sstop__n">03 · Over time</span><span class="sstop__t">Development</span><i class="sstop__ic" aria-hidden="true"></i></button>
+          <div class="sstop__body" id="ss-3"><div class="sstop__inner"><p>Steady progress through repetition and patience — the kind of growth that shows up season after season.</p><p class="sstop__fact"><b>~20</b>years coaching young players</p></div></div>
         </li>
-        <li class="sstop" data-tone="coach" data-img="1">
-          <button type="button" class="sstop__head" aria-expanded="false" aria-controls="ss-4"><span class="sstop__n">04 · Who he coached</span><span class="sstop__t">Children + adults</span><i class="sstop__ic" aria-hidden="true"></i></button>
-          <div class="sstop__body" id="ss-4"><div class="sstop__inner"><p>His coaching has included both children and adults, across different ages and skill levels.</p></div></div>
+        <li class="sstop" data-tone="b" data-word="Belief">
+          <button type="button" class="sstop__head" aria-expanded="false" aria-controls="ss-4"><span class="sstop__n">04 · On the ice</span><span class="sstop__t">Confidence</span><i class="sstop__ic" aria-hidden="true"></i></button>
+          <div class="sstop__body" id="ss-4"><div class="sstop__inner"><p>When players trust their skills, it shows. Confidence grows out of the work that came before it.</p></div></div>
         </li>
-        <li class="sstop" data-tone="coach" data-img="1" data-years>
-          <button type="button" class="sstop__head" aria-expanded="false" aria-controls="ss-5"><span class="sstop__n">05 · Experience</span><span class="sstop__t">Nearly 10 years of experience</span><i class="sstop__ic" aria-hidden="true"></i></button>
-          <div class="sstop__body" id="ss-5"><div class="sstop__inner"><p>Nearly ten years of pickleball coaching experience — most of it developed in Jamaica.</p><p class="sstop__fact"><b>~10</b>years coaching</p></div></div>
-        </li>
-        <li class="sstop sstop--nj" data-tone="nj" data-img="2">
-          <button type="button" class="sstop__head" aria-expanded="false" aria-controls="ss-6"><span class="sstop__n">06 · Now</span><span class="sstop__t">New Jersey</span><i class="sstop__ic" aria-hidden="true"></i></button>
-          <div class="sstop__body" id="ss-6"><div class="sstop__inner"><p>Leon is now in New Jersey, establishing his coaching presence here.</p></div></div>
-        </li>
-        <li class="sstop sstop--nj" data-tone="nj" data-img="2">
-          <button type="button" class="sstop__head" aria-expanded="false" aria-controls="ss-7"><span class="sstop__n">07 · Next</span><span class="sstop__t">A new coaching chapter</span><i class="sstop__ic" aria-hidden="true"></i></button>
-          <div class="sstop__body" id="ss-7"><div class="sstop__inner"><p>Bringing that experience to private, personalized pickleball lessons in New Jersey.</p><a class="textlink sstop__go" href="#contact">Start your lesson request</a></div></div>
+        <li class="sstop" data-tone="c" data-word="Next">
+          <button type="button" class="sstop__head" aria-expanded="false" aria-controls="ss-5"><span class="sstop__n">05 · What's next</span><span class="sstop__t">Next level</span><i class="sstop__ic" aria-hidden="true"></i></button>
+          <div class="sstop__body" id="ss-5"><div class="sstop__inner"><p>Whatever the next step looks like for each player — with a stronger foundation underneath it.</p><a class="textlink sstop__go" href="#contact">Ask about training</a></div></div>
         </li>
       </ol>
     </div>
   </div>
 </section>
 
-<!-- ═════════ 07 — WHY TRAIN WITH LEON (+ the only 3D section) ═════════ -->
-<section class="court" id="why" aria-labelledby="why-title">
+<!-- ═════════ 04 — PLAYER DEVELOPMENT · "Is this right for my child?" ═════════ -->
+<section class="players" id="development" aria-labelledby="players-title">
+  <div class="seam" aria-hidden="true"><span class="seam__line"><i class="puck"></i></span><span class="seam__tag">04 · Player development</span></div>
   <div class="wrap">
-    <div class="court__head">
+    <div class="players__head">
       <div>
-        <p class="eyebrow eyebrow--light">Why train with Leon</p>
-        <h2 class="h2 h2--light split" id="why-title">Experienced coaching. <em>Personal attention.</em></h2>
+        <p class="eyebrow">Player development</p>
+        <h2 class="h2 split" id="players-title">Development for <em>where your player is now.</em></h2>
       </div>
-      <p class="court__aside fade">Nearly ten years of coaching children and adults — now offered one-on-one in New Jersey.</p>
+      <p class="players__note fade">Kurt works with young players of different ages and experience levels — roughly ages 5 to 15. Choose where your player is starting from.</p>
     </div>
 
-    <ol class="zones">
-      <li class="zone fade"><span class="zone__n" aria-hidden="true">01</span><h3 class="zone__t">~10 years experience</h3><p class="zone__p">Nearly ten years of pickleball coaching experience.</p></li>
-      <li class="zone fade"><span class="zone__n" aria-hidden="true">02</span><h3 class="zone__t">Personalized coaching</h3><p class="zone__p">Lessons shaped around your game, your goals and your pace.</p></li>
-      <li class="zone fade"><span class="zone__n" aria-hidden="true">03</span><h3 class="zone__t">Experience with children + adults</h3><p class="zone__p">Coaching experience with players of different ages and skill levels.</p></li>
-      <li class="zone fade"><span class="zone__n" aria-hidden="true">04</span><h3 class="zone__t">Beginner friendly</h3><p class="zone__p">New to pickleball? Start with the fundamentals in a welcoming setting.</p></li>
-      <li class="zone fade"><span class="zone__n" aria-hidden="true">05</span><h3 class="zone__t">Private attention</h3><p class="zone__p">One-on-one lessons, so the focus stays on you.</p></li>
-      <li class="zone fade"><span class="zone__n" aria-hidden="true">06</span><h3 class="zone__t">Passion for teaching</h3><p class="zone__p">Leon enjoys teaching the game and helping players build confidence.</p></li>
-    </ol>
-
-    <div class="court__sub">
-      <p class="court__subk">On court</p>
-      <p class="court__subt">Positioning, explained. Switch views to see how players move — and drag the court to turn it.</p>
-    </div>
-
-    <div class="viewer fade" id="viewer" data-cursor="Drag">
-      <canvas class="viewer__canvas" aria-hidden="true"></canvas>
-
-      <div class="viewer__top">
-        <div class="seg" role="tablist" aria-label="Court view">
-          <button type="button" class="seg__btn" role="tab" id="v-doubles" aria-controls="p-doubles" aria-selected="true" data-mode="doubles">Doubles</button>
-          <button type="button" class="seg__btn" role="tab" id="v-singles" aria-controls="p-singles" aria-selected="false" data-mode="singles" tabindex="-1">Singles</button>
-          <button type="button" class="seg__btn" role="tab" id="v-size" aria-controls="p-size" aria-selected="false" data-mode="size" tabindex="-1">Court size</button>
-        </div>
-        <p class="viewer__live" aria-hidden="true"><i></i>Live view</p>
+    <div class="pl" id="pl">
+      <div class="pl__tabs" role="tablist" aria-label="Where is your player starting from?">
+        <span class="pl__ind" aria-hidden="true"></span>
+        <button type="button" class="pl__tab" role="tab" id="pl-t0" aria-controls="pl-p0" aria-selected="true"><span class="pl__tab-n" aria-hidden="true">01</span><span class="pl__tab-t"><b>Starting out</b><small>New to the ice</small></span></button>
+        <button type="button" class="pl__tab" role="tab" id="pl-t1" aria-controls="pl-p1" aria-selected="false" tabindex="-1"><span class="pl__tab-n" aria-hidden="true">02</span><span class="pl__tab-t"><b>Developing</b><small>Building the basics</small></span></button>
+        <button type="button" class="pl__tab" role="tab" id="pl-t2" aria-controls="pl-p2" aria-selected="false" tabindex="-1"><span class="pl__tab-n" aria-hidden="true">03</span><span class="pl__tab-t"><b>Building confidence</b><small>Ready for more</small></span></button>
       </div>
 
-      <div class="viewer__info">
-        <div class="vpane" role="tabpanel" id="p-doubles" aria-labelledby="v-doubles">
-          <p class="vpane__k">2 v 2</p>
-          <h3 class="vpane__t">Doubles</h3>
-          <p class="vpane__p">The most common way to play. Watch how partners move up together and share the kitchen line.</p>
-          <ul class="vtags"><li>Team positioning</li><li>Communication</li><li>Kitchen line</li><li>Shot selection</li></ul>
+      <div class="pl__stage" data-level="0">
+        <div class="pl__tone" aria-hidden="true"><i></i><i></i><i></i></div>
+
+        <div class="pl__panels">
+          <div class="pl__panel is-active" role="tabpanel" id="pl-p0" aria-labelledby="pl-t0" data-px="20%" data-py="62%" data-zone="Defensive zone" data-focus="Comfort on the ice">
+            <p class="pl__count" style="--d:0">01 / 03</p>
+            <h3 class="pl__name" style="--d:1">Starting out</h3>
+            <p class="pl__lead" style="--d:2">Getting comfortable on the ice — and enjoying it.</p>
+            <ul class="pl__tags" style="--d:3"><li>New players welcome</li><li>Comfort on skates</li><li>The basics</li></ul>
+            <div class="pl__ctas" style="--d:4">
+              <a class="btn btn--red" href="#contact" data-level="starting"><span>Ask about training</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span></a>
+            </div>
+          </div>
+          <div class="pl__panel" role="tabpanel" id="pl-p1" aria-labelledby="pl-t1" data-px="50%" data-py="38%" data-zone="Neutral zone" data-focus="Fundamentals · Repetition">
+            <p class="pl__count" style="--d:0">02 / 03</p>
+            <h3 class="pl__name" style="--d:1">Developing</h3>
+            <p class="pl__lead" style="--d:2">Building skills through repetition and patience.</p>
+            <ul class="pl__tags" style="--d:3"><li>Fundamentals</li><li>Repetition</li><li>Steady progress</li></ul>
+            <div class="pl__ctas" style="--d:4">
+              <a class="btn btn--red" href="#contact" data-level="developing"><span>Ask about training</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span></a>
+            </div>
+          </div>
+          <div class="pl__panel" role="tabpanel" id="pl-p2" aria-labelledby="pl-t2" data-px="80%" data-py="56%" data-zone="Attacking zone" data-focus="Confidence · Foundation">
+            <p class="pl__count" style="--d:0">03 / 03</p>
+            <h3 class="pl__name" style="--d:1">Building confidence</h3>
+            <p class="pl__lead" style="--d:2">Turning skills into confidence on the ice.</p>
+            <ul class="pl__tags" style="--d:3"><li>Confidence</li><li>A stronger foundation</li><li>Next steps</li></ul>
+            <div class="pl__ctas" style="--d:4">
+              <a class="btn btn--red" href="#contact" data-level="confidence"><span>Ask about training</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span></a>
+            </div>
+          </div>
         </div>
-        <div class="vpane" role="tabpanel" id="p-singles" aria-labelledby="v-singles" hidden>
-          <p class="vpane__k">1 v 1</p>
-          <h3 class="vpane__t">Singles</h3>
-          <p class="vpane__p">One player, the whole court. Every shot has to buy time to recover — watch the coverage path and the recovery zone.</p>
-          <ul class="vtags"><li>Court coverage</li><li>Footwork</li><li>Recovery</li><li>Consistency</li></ul>
-        </div>
-        <div class="vpane" role="tabpanel" id="p-size" aria-labelledby="v-size" hidden>
-          <p class="vpane__k">The court</p>
-          <h3 class="vpane__t">Court size</h3>
-          <p class="vpane__p">A pickleball court is 44 × 20 ft, with a 7 ft non-volley zone — the kitchen — on each side of the net. Shown here against a 78 × 36 ft tennis court.</p>
-          <ul class="vtags"><li>Kitchen awareness</li><li>Compact swings</li><li>Positioning</li></ul>
+
+        <!-- One simplified rink: the selected stage lights its zone, the puck moves there and the photo slot changes -->
+        <div class="pl__rinkwrap">
+          <div class="pl__media media" aria-hidden="true">
+            <img class="is-on" src="assets/art/drill.svg" alt="" loading="lazy" decoding="async">
+            <img src="assets/art/puck.svg" alt="" loading="lazy" decoding="async">
+            <img src="assets/art/crease.svg" alt="" loading="lazy" decoding="async">
+            <p class="ph-note">Coaching photos coming soon</p>
+          </div>
+          <div class="pl__rink" aria-hidden="true">
+            <div class="pl__rinkbox">
+            <svg viewBox="0 0 600 260" preserveAspectRatio="xMidYMid meet">
+              <defs><clipPath id="plClip"><rect x="6" y="6" width="588" height="248" rx="84"/></clipPath></defs>
+              <rect class="plr__ice" x="6" y="6" width="588" height="248" rx="84"/>
+              <g clip-path="url(#plClip)">
+                <rect class="plr__zone" data-z="0" x="6" y="6" width="220.5" height="248"/>
+                <rect class="plr__zone" data-z="1" x="226.5" y="6" width="147" height="248"/>
+                <rect class="plr__zone" data-z="2" x="373.5" y="6" width="220.5" height="248"/>
+                <path class="plr__red" d="M38 6v248M562 6v248M300 6v248"/>
+                <path class="plr__blue" d="M226.5 6v248M373.5 6v248"/>
+                <circle class="plr__blue plr__thin" cx="300" cy="130" r="44"/>
+                <g class="plr__red plr__thin"><circle cx="97" cy="65" r="44"/><circle cx="97" cy="195" r="44"/><circle cx="503" cy="65" r="44"/><circle cx="503" cy="195" r="44"/></g>
+              </g>
+              <rect class="plr__boards" x="6" y="6" width="588" height="248" rx="84"/>
+            </svg>
+            <span class="puck pl__puck"></span>
+            </div>
+            <span class="pl__rink-t"><small class="pl__zone-t">Defensive zone</small><b>Comfort on the ice</b></span>
+          </div>
         </div>
       </div>
-
-      <p class="viewer__legend" aria-hidden="true">
-        <span><i class="lg lg--you"></i>You</span>
-        <span><i class="lg lg--mate"></i>Partner</span>
-        <span><i class="lg lg--opp"></i>Opponent</span>
-        <span><i class="lg lg--path"></i>Ball path</span>
-      </p>
-      <p class="viewer__hint" aria-hidden="true">Drag to rotate</p>
-      <p class="viewer__fallback">The interactive 3D court needs WebGL, which isn't available in this browser.</p>
+      <p class="pl__fine">These stages are a simple way for families to describe their player — not official program levels.</p>
     </div>
   </div>
 </section>
 
-<!-- ═════════ 08 — GALLERY ═════════ -->
+<!-- ═════════ 05 — ON THE ICE · "What does training look like?" ═════════ -->
 <section class="gallery" id="gallery" aria-labelledby="gallery-title">
+  <div class="seam" aria-hidden="true"><span class="seam__line"><i class="puck"></i></span><span class="seam__tag">05 · On the ice</span></div>
   <div class="wrap">
     <div class="head">
-      <p class="eyebrow">Gallery</p>
-      <h2 class="h2 split" id="gallery-title">Learning the game. <em>Enjoying the court.</em></h2>
-      <p class="head__note fade">Illustrative stock photography from the wider pickleball community — photos from Leon's own lessons coming soon.</p>
+      <p class="eyebrow">On the ice</p>
+      <h2 class="h2 split" id="gallery-title">Inside <em>the work.</em></h2>
+      <p class="head__note fade">Photos from Kurt's coaching are on the way. Until they arrive, these rink frames mark where they'll go — no stock photos standing in for real sessions.</p>
     </div>
   </div>
 
+  <!-- Photo slots: swap each art <img> for a real photo (see assets/PHOTOS.md). Add a
+       <button class="tile__open" data-full="…"> to a frame to open it in the viewer. -->
   <div class="wrap reel">
     <figure class="reel__feature media">
-      <picture>
-        <source type="image/avif" srcset="assets/g-feature-1000.avif 1000w, assets/g-feature-2000.avif 2000w" sizes="(max-width: 1600px) 94vw, 1500px">
-        <img src="assets/g-feature-2000.webp" srcset="assets/g-feature-1000.webp 1000w, assets/g-feature-2000.webp 2000w" sizes="(max-width: 1600px) 94vw, 1500px" alt="Aerial view of a row of outdoor pickleball courts busy with players" loading="lazy" decoding="async">
-      </picture>
-      <button type="button" class="tile__open" data-cursor="View" data-full="assets/g-feature-2000.webp" aria-label="View larger: outdoor courts from above"></button>
-      <figcaption class="reel__cap"><b>On court.</b>Outdoor courts, busy with play</figcaption>
+      <img src="assets/art/ice-wide.svg" alt="" loading="lazy" decoding="async">
+      <figcaption class="reel__cap"><b>Fresh ice.</b>Photo slot · practice and player-development sessions</figcaption>
     </figure>
   </div>
 
   <div class="wrap">
+    <div class="gline" aria-hidden="true"><span class="gline__fill"></span><span class="puck gline__puck"></span></div>
     <div class="grid">
-      <figure class="tile media"><img src="assets/g-coaching-600.webp" srcset="assets/g-coaching-600.webp 600w, assets/g-coaching-1000.webp 1000w" sizes="(max-width: 700px) 75vw, 32vw" alt="A hand holding a blue paddle with a yellow ball balanced on it above the net" loading="lazy" decoding="async"><button type="button" class="tile__open" data-cursor="View" data-full="assets/g-coaching-1000.webp" aria-label="View larger: paddle and ball at the net"></button><figcaption class="tile__cap"><b>Private coaching</b>Paddle and ball at the net</figcaption></figure>
-      <figure class="tile media"><img src="assets/g-beginners-600.webp" srcset="assets/g-beginners-600.webp 600w, assets/g-beginners-1000.webp 1000w" sizes="(max-width: 700px) 75vw, 32vw" alt="Two smiling adults leaning on the net, one holding a paddle" loading="lazy" decoding="async"><button type="button" class="tile__open" data-cursor="View" data-full="assets/g-beginners-1000.webp" aria-label="View larger: smiles at the net"></button><figcaption class="tile__cap"><b>Beginners</b>Smiles at the net</figcaption></figure>
-      <figure class="tile media"><img src="assets/g-youth-600.webp" srcset="assets/g-youth-600.webp 600w, assets/g-youth-1000.webp 1000w" sizes="(max-width: 700px) 75vw, 32vw" alt="A young player smiling, holding a paddle and a yellow ball" loading="lazy" decoding="async"><button type="button" class="tile__open" data-cursor="View" data-full="assets/g-youth-1000.webp" aria-label="View larger: young player ready to play"></button><figcaption class="tile__cap"><b>Youth</b>Ready to play</figcaption></figure>
-      <figure class="tile media"><img src="assets/g-adults-600.webp" srcset="assets/g-adults-600.webp 600w, assets/g-adults-1000.webp 1000w" sizes="(max-width: 700px) 75vw, 32vw" alt="Two adults standing together on court at sunset, holding paddles" loading="lazy" decoding="async"><button type="button" class="tile__open" data-cursor="View" data-full="assets/g-adults-1000.webp" aria-label="View larger: an evening on court"></button><figcaption class="tile__cap"><b>Adult players</b>An evening on court</figcaption></figure>
-      <figure class="tile media"><img src="assets/g-court-600.webp" srcset="assets/g-court-600.webp 600w, assets/g-court-1000.webp 1000w" sizes="(max-width: 700px) 75vw, 32vw" alt="A doubles game on an open outdoor court under a wide sky" loading="lazy" decoding="async"><button type="button" class="tile__open" data-cursor="View" data-full="assets/g-court-1000.webp" aria-label="View larger: doubles on an open court"></button><figcaption class="tile__cap"><b>On court</b>Doubles on an open court</figcaption></figure>
-      <figure class="tile media"><img src="assets/g-forehand-600.webp" srcset="assets/g-forehand-600.webp 600w, assets/g-forehand-1000.webp 1000w" sizes="(max-width: 700px) 75vw, 32vw" alt="A player following through on a forehand at an outdoor court" loading="lazy" decoding="async"><button type="button" class="tile__open" data-cursor="View" data-full="assets/g-forehand-1000.webp" aria-label="View larger: forehand follow-through"></button><figcaption class="tile__cap"><b>Adult players</b>Forehand follow-through</figcaption></figure>
+      <figure class="tile media"><img src="assets/art/corner.svg" alt="" loading="lazy" decoding="async"><figcaption class="tile__cap"><b>Rink-side instruction</b>Photo slot · coming soon</figcaption></figure>
+      <figure class="tile media"><img src="assets/art/drill.svg" alt="" loading="lazy" decoding="async"><figcaption class="tile__cap"><b>Skill-development drills</b>Photo slot · coming soon</figcaption></figure>
+      <figure class="tile media"><img src="assets/art/puck.svg" alt="" loading="lazy" decoding="async"><figcaption class="tile__cap"><b>Young players on the ice</b>Photo slot · coming soon</figcaption></figure>
+      <figure class="tile media"><img src="assets/art/crease.svg" alt="" loading="lazy" decoding="async"><figcaption class="tile__cap"><b>Group practice</b>Photo slot · coming soon</figcaption></figure>
+      <figure class="tile media"><img src="assets/art/night.svg" alt="" loading="lazy" decoding="async"><figcaption class="tile__cap"><b>Talking it through</b>Photo slot · coming soon</figcaption></figure>
+      <figure class="tile media"><img src="assets/art/center.svg" alt="" loading="lazy" decoding="async"><figcaption class="tile__cap"><b>Individual instruction</b>Photo slot · coming soon</figcaption></figure>
     </div>
     <p class="grid__hint" aria-hidden="true">Swipe for more →</p>
   </div>
@@ -615,96 +440,112 @@
   </dialog>
 </section>
 
-<!-- ═════════ 09 — BOOKING (new: step-based lesson request) ═════════ -->
-<section class="book" id="contact" aria-labelledby="book-title">
-  <div class="seam seam--light" aria-hidden="true"><span class="seam__line"></span><span class="seam__tag">09 · Book</span></div>
-  <div class="wrap book__grid">
-    <div class="book__intro">
-      <p class="eyebrow eyebrow--light">Book a private lesson</p>
-      <h2 class="h2 h2--light split" id="book-title">Ready to <em class="mark mark--dark">learn pickleball?</em></h2>
-      <p class="book__lede fade">Start your pickleball journey with Coach Leon through personalized private instruction.</p>
-
-      <div class="incl fade">
-        <p class="incl__k">Private coaching with Leon</p>
-        <ul>
-          <li class="is-core">One-on-one attention</li>
-          <li class="is-core">Personalized feedback</li>
-          <li data-v="Fundamentals">Fundamentals</li>
-          <li data-v="Confidence">Confidence</li>
-          <li data-v="Technique">Technique</li>
-          <li data-v="Consistency">Consistency</li>
-          <li data-v="Game understanding">Game understanding</li>
-        </ul>
+<!-- ═════════ 06 — WHY PARENTS REACH OUT · verified experience & approach only ═════════ -->
+<section class="why" id="why" aria-labelledby="why-title">
+  <div class="seam" aria-hidden="true"><span class="seam__line"><i class="puck"></i></span><span class="seam__tag">06 · For parents</span></div>
+  <div class="wrap">
+    <div class="why__head">
+      <div>
+        <p class="eyebrow">Why parents reach out</p>
+        <h2 class="h2 split" id="why-title">Experienced coaching. <em>A parent's perspective.</em></h2>
       </div>
-
-      <div class="bsum fade" aria-hidden="true">
-        <p class="bsum__k"><i></i>Your request</p>
-        <dl>
-          <dt>Coaching for</dt><dd class="is-empty" data-sum="coaching_for">Not chosen yet</dd>
-          <dt>Experience</dt><dd class="is-empty" data-sum="experience">Not chosen yet</dd>
-          <dt>Improve</dt><dd class="is-empty" data-sum="improve">Not chosen yet</dd>
-        </dl>
-      </div>
-      <p class="book__note fade">No payment is taken here. Your request goes to Coach Leon so he can get back to you about a private lesson.</p>
+      <p class="why__aside fade">Kurt started coaching as a hockey parent. Nearly twenty years later, he understands what families are looking for when they ask about training.</p>
     </div>
 
-    <!-- Netlify Forms: submissions appear in the Netlify dashboard under "Forms → private-lesson-request" -->
-    <form class="bflow fade" id="lessonForm" name="private-lesson-request" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="bot-field" novalidate>
-      <input type="hidden" name="form-name" value="private-lesson-request">
+    <ol class="zones">
+      <li class="zone fade"><span class="zone__n" aria-hidden="true">01</span><h3 class="zone__t">~20 years coaching</h3><p class="zone__p">Approximately two decades of coaching young hockey players.</p></li>
+      <li class="zone fade"><span class="zone__n" aria-hidden="true">02</span><h3 class="zone__t">Started as a hockey parent</h3><p class="zone__p">Kurt began by coaching his own children — he knows the game from the parent's side too.</p></li>
+      <li class="zone fade"><span class="zone__n" aria-hidden="true">03</span><h3 class="zone__t">Focused on young players</h3><p class="zone__p">Works with young players at different stages, roughly ages 5–15.</p></li>
+      <li class="zone fade"><span class="zone__n" aria-hidden="true">04</span><h3 class="zone__t">Development first</h3><p class="zone__p">The focus is long-term growth: skills, confidence and a stronger foundation.</p></li>
+      <li class="zone fade"><span class="zone__n" aria-hidden="true">05</span><h3 class="zone__t">Questions welcome</h3><p class="zone__p">Ask first. Details are talked through directly with Kurt before anything is decided.</p></li>
+      <li class="zone fade"><span class="zone__n" aria-hidden="true">06</span><h3 class="zone__t">An easy first step</h3><p class="zone__p">One short inquiry. No payment, no booking and no commitment on this site.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ═════════ 07 — TRAINING INQUIRY · "How do I ask about training?" ═════════ -->
+<section class="book" id="contact" aria-labelledby="book-title">
+  <div class="seam seam--light" aria-hidden="true"><span class="seam__line"><i class="puck"></i></span><span class="seam__tag">07 · Ask about training</span></div>
+  <div class="wrap book__grid">
+    <div class="book__intro">
+      <p class="eyebrow eyebrow--light">Training inquiry</p>
+      <h2 class="h2 h2--light split" id="book-title">Ready to <em>ask about training?</em></h2>
+      <p class="book__lede fade">Tell Kurt a little about your player. Four quick steps — then he can follow up with you directly.</p>
+
+      <ul class="incl fade" aria-label="Good to know">
+        <li>No payment</li>
+        <li>Not a booking</li>
+        <li>Just a question</li>
+      </ul>
+
+      <div class="bsum fade" aria-hidden="true">
+        <p class="bsum__k"><i></i>Your inquiry</p>
+        <dl>
+          <dt>Asking</dt><dd class="is-empty" data-sum="inquirer">Not chosen yet</dd>
+          <dt>Player age</dt><dd class="is-empty" data-sum="player_age">Not chosen yet</dd>
+          <dt>Experience</dt><dd class="is-empty" data-sum="experience">Not chosen yet</dd>
+        </dl>
+      </div>
+      <p class="book__mail fade">Prefer email? <a class="ulink" href="mailto:minnesota.mnmadehockey@gmail.com">minnesota.mnmadehockey@gmail.com</a></p>
+      <p class="book__note fade">Age and experience choices are inquiry categories only, to help Kurt understand your player — they aren't program levels. Your details are used only to reply. <a class="ulink" href="privacy.html">Privacy</a></p>
+    </div>
+
+    <!-- Netlify Forms: submissions appear in the Netlify dashboard under "Forms → training-inquiry" -->
+    <form class="bflow fade" id="lessonForm" name="training-inquiry" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+      <input type="hidden" name="form-name" value="training-inquiry">
       <p class="hp" aria-hidden="true"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
 
       <div class="bflow__top">
-        <p class="bflow__title">Request a private lesson</p>
+        <p class="bflow__title">Ask about training</p>
         <p class="bflow__count" aria-live="polite">Step <span class="bflow__cur">1</span> of 4</p>
       </div>
 
-      <div class="bprog" aria-label="Request steps">
+      <div class="bprog" aria-label="Inquiry steps">
         <span class="bprog__fill" aria-hidden="true"></span>
-        <span class="mball bprog__ball" aria-hidden="true"></span>
-        <button type="button" class="bprog__node is-current" data-go="0" aria-label="Step 1: who the coaching is for">1<small aria-hidden="true">Who</small></button>
-        <button type="button" class="bprog__node" data-go="1" aria-label="Step 2: current experience" disabled>2<small aria-hidden="true">Level</small></button>
-        <button type="button" class="bprog__node" data-go="2" aria-label="Step 3: what to improve" disabled>3<small aria-hidden="true">Goals</small></button>
-        <button type="button" class="bprog__node" data-go="3" aria-label="Step 4: contact details" disabled>4<small aria-hidden="true">Details</small></button>
+        <span class="puck bprog__puck" aria-hidden="true"></span>
+        <button type="button" class="bprog__node is-current" data-go="0" aria-label="Step 1: who is asking">1<small aria-hidden="true">Who</small></button>
+        <button type="button" class="bprog__node" data-go="1" aria-label="Step 2: player age" disabled>2<small aria-hidden="true">Age</small></button>
+        <button type="button" class="bprog__node" data-go="2" aria-label="Step 3: player experience" disabled>3<small aria-hidden="true">Experience</small></button>
+        <button type="button" class="bprog__node" data-go="3" aria-label="Step 4: your details" disabled>4<small aria-hidden="true">Details</small></button>
       </div>
 
       <div class="bflow__viewport">
         <div class="bflow__track">
           <fieldset class="bstep" data-step="0" aria-describedby="err-0">
-            <legend class="bstep__q"><span>Step 01</span>Who is coaching for?</legend>
+            <legend class="bstep__q"><span>Step 01</span>Who is asking about training?</legend>
             <div class="opts">
-              <label class="ocard" style="--d:1"><input type="radio" name="coaching_for" value="Adult" required><span class="ocard__box"><span class="ocard__ic" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="7" r="3.5"/><path d="M5 20c.8-4 3.6-6 7-6s6.2 2 7 6"/></svg></span><span class="ocard__t">Adult</span><span class="ocard__s">For yourself or another adult</span></span></label>
-              <label class="ocard" style="--d:2"><input type="radio" name="coaching_for" value="Young player"><span class="ocard__box"><span class="ocard__ic" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="3"/><path d="M7 20c.6-3.2 2.6-5 5-5s4.4 1.8 5 5"/></svg></span><span class="ocard__t">Young player</span><span class="ocard__s">For a child or teen</span></span></label>
-              <label class="ocard" style="--d:3"><input type="radio" name="coaching_for" value="Other"><span class="ocard__box"><span class="ocard__ic" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="6" cy="12" r="1.2"/><circle cx="12" cy="12" r="1.2"/><circle cx="18" cy="12" r="1.2"/></svg></span><span class="ocard__t">Other</span><span class="ocard__s">Tell Leon more in step 4</span></span></label>
+              <label class="ocard" style="--d:1"><input type="radio" name="inquirer" value="Parent / Guardian" required><span class="ocard__box"><span class="ocard__ic" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="9" cy="7" r="3.2"/><circle cx="17" cy="10" r="2.4"/><path d="M3 20c.7-3.6 3.1-5.6 6-5.6s5.3 2 6 5.6M15 15.2c.6-.3 1.3-.4 2-.4 2.3 0 4 1.6 4.5 4.6"/></svg></span><span class="ocard__t">Parent / Guardian</span><span class="ocard__s">Asking for my player</span></span></label>
+              <label class="ocard" style="--d:2"><input type="radio" name="inquirer" value="Player"><span class="ocard__box"><span class="ocard__ic" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="7.5" r="3.2"/><path d="M6 20c.7-3.6 3.1-5.6 6-5.6s5.3 2 6 5.6"/></svg></span><span class="ocard__t">Player</span><span class="ocard__s">Asking for myself</span></span></label>
+              <label class="ocard" style="--d:3"><input type="radio" name="inquirer" value="Other"><span class="ocard__box"><span class="ocard__ic" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="6" cy="12" r="1.2"/><circle cx="12" cy="12" r="1.2"/><circle cx="18" cy="12" r="1.2"/></svg></span><span class="ocard__t">Other</span><span class="ocard__s">Tell Kurt more in step 4</span></span></label>
             </div>
             <p class="bstep__err" id="err-0" role="alert"></p>
           </fieldset>
 
           <fieldset class="bstep" data-step="1" aria-describedby="err-1">
-            <legend class="bstep__q"><span>Step 02</span>Current experience</legend>
-            <div class="opts opts--2">
-              <label class="ocard" style="--d:1"><input type="radio" name="experience" value="Never played" required><span class="ocard__box"><span class="ocard__ic" aria-hidden="true">00</span><span class="ocard__t">Never played</span><span class="ocard__s">Brand new to pickleball</span></span></label>
-              <label class="ocard" style="--d:2"><input type="radio" name="experience" value="Beginner"><span class="ocard__box"><span class="ocard__ic" aria-hidden="true">01</span><span class="ocard__t">Beginner</span><span class="ocard__s">Learning the basics</span></span></label>
-              <label class="ocard" style="--d:3"><input type="radio" name="experience" value="Some experience"><span class="ocard__box"><span class="ocard__ic" aria-hidden="true">02</span><span class="ocard__t">Some experience</span><span class="ocard__s">Played a few times or more</span></span></label>
-              <label class="ocard" style="--d:4"><input type="radio" name="experience" value="Developing"><span class="ocard__box"><span class="ocard__ic" aria-hidden="true">03</span><span class="ocard__t">Developing</span><span class="ocard__s">Ready to sharpen your game</span></span></label>
+            <legend class="bstep__q"><span>Step 02</span>Player age<small>Approximate is fine.</small></legend>
+            <div class="opts opts--age">
+              <label class="ocard ocard--num" style="--d:1"><input type="radio" name="player_age" value="5–7" required><span class="ocard__box"><span class="ocard__t">5–7</span><span class="ocard__s">years</span></span></label>
+              <label class="ocard ocard--num" style="--d:2"><input type="radio" name="player_age" value="8–10"><span class="ocard__box"><span class="ocard__t">8–10</span><span class="ocard__s">years</span></span></label>
+              <label class="ocard ocard--num" style="--d:3"><input type="radio" name="player_age" value="11–13"><span class="ocard__box"><span class="ocard__t">11–13</span><span class="ocard__s">years</span></span></label>
+              <label class="ocard ocard--num" style="--d:4"><input type="radio" name="player_age" value="14–15"><span class="ocard__box"><span class="ocard__t">14–15</span><span class="ocard__s">years</span></span></label>
+              <label class="ocard ocard--num" style="--d:5"><input type="radio" name="player_age" value="Other"><span class="ocard__box"><span class="ocard__t">Other</span><span class="ocard__s">add a note</span></span></label>
             </div>
             <p class="bstep__err" id="err-1" role="alert"></p>
           </fieldset>
 
           <fieldset class="bstep" data-step="2" aria-describedby="err-2">
-            <legend class="bstep__q"><span>Step 03</span>What do you want to improve?<small>Choose as many as you like.</small></legend>
-            <div class="opts opts--chips" id="f-improve">
-              <label class="ocard ocard--chip" style="--d:1"><input type="checkbox" name="improve" value="Fundamentals"><span class="ocard__box"><span class="ocard__t">Fundamentals</span></span></label>
-              <label class="ocard ocard--chip" style="--d:2"><input type="checkbox" name="improve" value="Technique"><span class="ocard__box"><span class="ocard__t">Technique</span></span></label>
-              <label class="ocard ocard--chip" style="--d:3"><input type="checkbox" name="improve" value="Confidence"><span class="ocard__box"><span class="ocard__t">Confidence</span></span></label>
-              <label class="ocard ocard--chip" style="--d:4"><input type="checkbox" name="improve" value="Consistency"><span class="ocard__box"><span class="ocard__t">Consistency</span></span></label>
-              <label class="ocard ocard--chip" style="--d:5"><input type="checkbox" name="improve" value="Game understanding"><span class="ocard__box"><span class="ocard__t">Game understanding</span></span></label>
-              <label class="ocard ocard--chip" style="--d:6"><input type="checkbox" name="improve" value="Other"><span class="ocard__box"><span class="ocard__t">Other</span></span></label>
+            <legend class="bstep__q"><span>Step 03</span>Player experience<small>Just a general sense — these aren't program levels.</small></legend>
+            <div class="opts opts--2">
+              <label class="ocard" style="--d:1"><input type="radio" name="experience" value="New to hockey" required><span class="ocard__box"><span class="ocard__ic" aria-hidden="true">00</span><span class="ocard__t">New to hockey</span><span class="ocard__s">Just getting started</span></span></label>
+              <label class="ocard" style="--d:2"><input type="radio" name="experience" value="Developing"><span class="ocard__box"><span class="ocard__ic" aria-hidden="true">01</span><span class="ocard__t">Developing</span><span class="ocard__s">Learning and building skills</span></span></label>
+              <label class="ocard" style="--d:3"><input type="radio" name="experience" value="Experienced"><span class="ocard__box"><span class="ocard__ic" aria-hidden="true">02</span><span class="ocard__t">Experienced</span><span class="ocard__s">Has played for a while</span></span></label>
+              <label class="ocard" style="--d:4"><input type="radio" name="experience" value="Not sure"><span class="ocard__box"><span class="ocard__ic" aria-hidden="true">?</span><span class="ocard__t">Not sure</span><span class="ocard__s">That's completely fine</span></span></label>
             </div>
             <p class="bstep__err" id="err-2" role="alert"></p>
           </fieldset>
 
           <fieldset class="bstep" data-step="3">
-            <legend class="bstep__q"><span>Step 04</span>Contact details<small>Fields marked <span class="req" aria-hidden="true">*</span><span class="sr-only">with an asterisk</span> are required.</small></legend>
+            <legend class="bstep__q"><span>Step 04</span>Your details<small>Fields marked <span class="req" aria-hidden="true">*</span><span class="sr-only">with an asterisk</span> are required.</small></legend>
             <div class="field" style="--d:1">
               <label for="f-name">Name <span class="req" aria-hidden="true">*</span></label>
               <input id="f-name" name="name" type="text" autocomplete="name" required>
@@ -722,12 +563,8 @@
               </div>
             </div>
             <div class="field" style="--d:4">
-              <label for="f-times">Preferred days / times <span class="opt">(optional)</span></label>
-              <input id="f-times" name="availability" type="text" placeholder="e.g. Weekday evenings, Saturday mornings">
-            </div>
-            <div class="field" style="--d:5">
               <label for="f-msg">Message <span class="opt">(optional)</span></label>
-              <textarea id="f-msg" name="message" rows="3" placeholder="Anything you'd like Leon to know — your goals, how often you play, questions"></textarea>
+              <textarea id="f-msg" name="message" rows="4" placeholder="Anything you'd like Kurt to know — your player, what they enjoy, what you're hoping for, questions"></textarea>
             </div>
           </fieldset>
         </div>
@@ -736,103 +573,102 @@
       <div class="bflow__nav">
         <button type="button" class="bflow__back" hidden><span aria-hidden="true">←</span>Back</button>
         <button type="button" class="btn btn--dark bflow__next"><span>Continue</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span></button>
-        <button type="submit" class="btn btn--dark bflow__submit" hidden data-magnetic><span>Request a private lesson</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span></button>
+        <button type="submit" class="btn btn--red bflow__submit" hidden data-magnetic><span>Ask about training</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span></button>
       </div>
       <p class="bform__status" id="formStatus" role="status" aria-live="polite"></p>
 
       <div class="bdone" hidden tabindex="-1">
-        <div class="bdone__mark" aria-hidden="true"><span class="mball"></span><svg viewBox="0 0 92 92"><path pathLength="1" d="M30 47l11 11 22-24"/></svg></div>
-        <h3 class="bdone__t">Request sent.</h3>
+        <div class="bdone__mark" aria-hidden="true"><svg viewBox="0 0 92 92"><circle cx="46" cy="46" r="42"/><path pathLength="1" d="M30 47l11 11 22-24"/></svg></div>
+        <h3 class="bdone__t">Inquiry sent.</h3>
         <p class="bdone__p"></p>
         <ul class="bdone__list"></ul>
-        <button type="button" class="textlink bdone__again">Start a new request</button>
+        <button type="button" class="textlink bdone__again">Start a new inquiry</button>
       </div>
     </form>
   </div>
 </section>
 
-<!-- ═════════ 10 — FINAL CTA + FOOTER (footer lives inside this section) ═════════ -->
+<!-- ═════════ 08 — CLOSING + FOOTER (footer lives inside this section) ═════════ -->
 <section class="footer" id="final" aria-labelledby="closing-title">
   <div class="wrap">
     <div class="fcta">
       <h2 class="fcta__title" id="closing-title">
-        <span class="line"><span class="line__in">Start your</span></span>
-        <span class="line"><span class="line__in"><em>pickleball journey.</em></span></span>
+        <span class="line"><span class="line__in">Start young.</span></span>
+        <span class="line"><span class="line__in"><em>Build strong.</em></span></span>
       </h2>
       <div class="fcta__side">
-        <p class="fcta__p">Private, personalized pickleball coaching with Coach Leon Thomas — nearly ten years of coaching experience, now in New Jersey.</p>
+        <p class="fcta__p">Youth hockey coaching and player development with Kurt Johnson — nearly 20 years of coaching young players.</p>
         <div class="fcta__btns">
-          <a class="btn btn--ball" href="#contact" data-magnetic>
-            <span>Book a private lesson</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          <a class="btn btn--red" href="#contact" data-magnetic>
+            <span>Ask about training</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
           </a>
-          <a class="btn btn--ghost" href="#contact">
-            <span>Ask about coaching</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          <a class="btn btn--ghost" href="mailto:minnesota.mnmadehockey@gmail.com">
+            <span>Email Kurt</span><span class="btn__ic" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
           </a>
         </div>
       </div>
     </div>
 
     <footer class="fbody">
-      <div class="fcourt">
-        <div class="fcourt__rally" aria-hidden="true"><span class="fcourt__x"><span class="fcourt__y"><span class="fcourt__ball"></span></span></span></div>
+      <div class="frink">
+        <div class="frink__glide" aria-hidden="true"><span class="puck frink__puck"></span></div>
 
-        <div class="fzone fzone--base">
-          <span class="fzone__lbl" aria-hidden="true">Baseline</span>
-          <a class="flogo" href="#top" aria-label="Coach Leon Thomas, Pickleball Coaching — back to top">
-            <svg class="lm" viewBox="0 0 48 48" aria-hidden="true"><g transform="rotate(-12 19 44)"><g class="lm-paddle"><rect class="lm-handle" x="15.5" y="30" width="7" height="14" rx="2.6"/><path class="lm-grip" d="M15.5 35h7M15.5 39h7"/><rect class="lm-face" x="7" y="4" width="24" height="28" rx="10"/><path class="lm-line" d="M11 18h16"/></g></g><g class="lm-ball"><circle class="lm-ball__c" cx="38" cy="12" r="6.6"/><g class="lm-holes"><circle cx="35.6" cy="9.9" r="1.05"/><circle cx="39.9" cy="9.3" r="1.05"/><circle cx="37.8" cy="12.9" r="1.05"/><circle cx="41.1" cy="14.1" r="1.05"/><circle cx="34.9" cy="14.4" r="1.05"/></g></g></svg>
-            <span class="logo__text"><span class="logo__name"><span><em class="logo__coach">Coach</em> Leon</span></span><span class="logo__court" aria-hidden="true"><svg class="logo__line" viewBox="0 0 100 6" preserveAspectRatio="none" aria-hidden="true"><path d="M1 1v4M1 3h98M99 1v4M50 .5v5" pathLength="1"/></svg><i class="logo__dot"></i></span><span class="logo__tag">Pickleball Coaching</span></span>
+        <div class="fzone fzone--end fzone--l">
+          <span class="fzone__lbl" aria-hidden="true">End zone</span>
+          <a class="flogo" href="#top" aria-label="Minnesota Made Hockey — back to top">
+            <svg class="lm" viewBox="0 0 48 48" aria-hidden="true"><rect class="lm-rink" x="1.5" y="1.5" width="45" height="45" rx="14"/><rect class="lm-boards" x="5" y="5" width="38" height="38" rx="10.5"/><path class="lm-mmh" d="M9.5 29V15l3.5 7.5 3.5-7.5v14M20 29V15l3.5 7.5L27 15v14M30.5 15v14M38.5 15v14M30.5 22h8"/><path class="lm-line" d="M9.5 35.5h29" pathLength="1"/><circle class="lm-puck" cx="38.5" cy="35.5" r="2.6"/></svg>
+            <span class="logo__text"><span class="logo__name"><span>Minnesota Made</span></span><span class="logo__court" aria-hidden="true"><svg class="logo__line" viewBox="0 0 100 6" preserveAspectRatio="none"><path d="M1 1v4M1 3h98M99 1v4" pathLength="1"/><path class="logo__red" d="M50 .5v5"/></svg></span><span class="logo__tag">Hockey</span></span>
           </a>
-          <p class="fzone__p">Private pickleball coaching in New Jersey.</p>
-          <p class="fpill"><i></i>Nearly 10 years coaching</p>
+          <p class="fzone__p">Youth hockey coaching and player development with Kurt Johnson.</p>
+          <p class="fpill"><i></i>~20 years coaching</p>
         </div>
 
-        <nav class="fzone fzone--kitchen" aria-label="Explore">
-          <span class="fzone__lbl" aria-hidden="true">Kitchen</span>
+        <nav class="fzone fzone--mid" aria-label="Explore">
+          <span class="fzone__lbl" aria-hidden="true">Neutral zone</span>
           <p class="fzone__h">Explore</p>
-          <a class="flink" href="#about">Meet Leon</a>
-          <a class="flink" href="#coaching">Private coaching</a>
-          <a class="flink" href="#players">Who Leon coaches</a>
-          <a class="flink" href="#journey">The journey</a>
-          <a class="flink" href="#gallery">Gallery</a>
+          <a class="flink" href="#about">Meet Kurt</a>
+          <a class="flink" href="#experience">Nearly 20 years</a>
+          <a class="flink" href="#development">Player development</a>
+          <a class="flink" href="#gallery">On the ice</a>
+          <a class="flink" href="#why">For parents</a>
         </nav>
 
-        <div class="fnet" aria-hidden="true"><span>Net</span></div>
+        <div class="fcenter" aria-hidden="true"><span>Center ice</span></div>
 
-        <div class="fzone fzone--kitchen">
-          <span class="fzone__lbl" aria-hidden="true">Kitchen</span>
-          <p class="fzone__h">Coach Leon</p>
+        <div class="fzone fzone--mid">
+          <span class="fzone__lbl" aria-hidden="true">Neutral zone</span>
+          <p class="fzone__h">Coach Kurt</p>
           <ul class="ffacts">
-            <li>Nearly 10 years coaching</li>
-            <li>Originally from Jamaica</li>
-            <li>Children + adults</li>
-            <li>Now coaching in New Jersey</li>
+            <li>Approximately 20 years coaching</li>
+            <li>Started with his own kids</li>
+            <li>Young players, ages ~5–15</li>
+            <li>Player-development focus</li>
           </ul>
         </div>
 
-        <div class="fzone fzone--base">
-          <span class="fzone__lbl" aria-hidden="true">Baseline</span>
-          <p class="fzone__h">Connect</p>
+        <div class="fzone fzone--end fzone--r">
+          <span class="fzone__lbl" aria-hidden="true">End zone</span>
+          <p class="fzone__h">Contact</p>
           <a class="fsocial" href="#contact">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4.5" width="18" height="16" rx="3"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/></svg>
-            <span>Book a private lesson<small>Send a request</small></span><b aria-hidden="true">→</b>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg>
+            <span>Ask about training<small>Send a short inquiry</small></span><b aria-hidden="true">→</b>
           </a>
-          <!-- Contact placeholder: add Leon's email / phone / social links here once confirmed -->
-          <p class="fsocial fsocial--soon">
+          <a class="fsocial" href="mailto:minnesota.mnmadehockey@gmail.com">
             <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7l8 6 8-6"/></svg>
-            <span>Direct contact<small>Details coming soon</small></span>
-          </p>
+            <span>Email<small class="fsocial__mail">minnesota.mnmadehockey@gmail.com</small></span><b aria-hidden="true">→</b>
+          </a>
         </div>
       </div>
 
       <div class="fword" aria-hidden="true">
-        <span class="fword__o">Leon Thomas</span>
-        <span class="fword__f">Leon Thomas</span>
+        <span class="fword__o">Minnesota Made</span>
+        <span class="fword__f">Minnesota Made</span>
       </div>
 
       <div class="flegal">
-        <span>© <span id="year">2026</span> Coach Leon Thomas · Private Pickleball Coaching · New Jersey</span>
+        <span>© <span id="year">2026</span> Minnesota Made Hockey · Kurt Johnson · Youth hockey coaching</span>
         <a class="ulink" href="privacy.html">Privacy</a>
-        <button class="ftop" type="button">Back to top <span class="ftop__ball" aria-hidden="true"></span></button>
+        <button class="ftop" type="button">Back to top <span class="ftop__ic" aria-hidden="true"></span></button>
       </div>
     </footer>
   </div>

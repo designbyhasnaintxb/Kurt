@@ -1,8 +1,8 @@
-# Netlify settings for the Coach Leon Thomas private pickleball coaching site (plain static site — no build step)
+# Netlify settings for the Minnesota Made Hockey (Kurt Johnson) youth hockey coaching site — plain static site, no build step
 [build]
   publish = "."
 
-# Photos rarely change: cache them for a week
+# Photos and rink art rarely change: cache them for a week
 [[headers]]
   for = "/assets/*"
   [headers.values]
